@@ -1,5 +1,5 @@
 html,body {
-	background-color: #fbfbfb;
+	background-color: #fff;
 }
 
 .button, button {
@@ -9,14 +9,12 @@ html,body {
 
 button:hover, button:focus, .button:hover, .button:focus {
 	background-color: #666;
-}
-
-button:hover, button:focus, .button:hover, .button:focus {
     color: white;
 }
 
-
-a {color:#333;}
+a {
+    color:#333;
+}
 a:hover {
 	color:#ccc;
 }
@@ -25,7 +23,7 @@ a:hover {
 	font-size: .75em;
 }
 li.active .button, li.active button { 
-	color:#666;
+	color:#333;
 	background-color:#f0f0f0;
 }
 
